@@ -83,6 +83,7 @@ type HTTPConfig struct {
 	IdleConnTimeout       time.Duration `yaml:"idle_conn_timeout"`
 	ResponseHeaderTimeout time.Duration `yaml:"response_header_timeout"`
 	InsecureSkipVerify    bool          `yaml:"insecure_skip_verify"`
+        TLSHandshakeTimeout time.Duration `yaml:"tls_handshake_timeout"`
 }
 
 // RegisterFlags adds the flags required to config this to the given FlagSet
@@ -250,7 +251,7 @@ func buildS3Config(cfg S3Config) (*aws.Config, []string, error) {
 		MaxIdleConns:          100,
 		IdleConnTimeout:       cfg.HTTPConfig.IdleConnTimeout,
 		MaxIdleConnsPerHost:   100,
-		TLSHandshakeTimeout:   3 * time.Second,
+                TLSHandshakeTimeout:   cfg.HTTPConfig.TLSHandshakeTimeout,
 		ExpectContinueTimeout: 1 * time.Second,
 		ResponseHeaderTimeout: time.Duration(cfg.HTTPConfig.ResponseHeaderTimeout),
 		TLSClientConfig:       &tls.Config{InsecureSkipVerify: cfg.HTTPConfig.InsecureSkipVerify},
