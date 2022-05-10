@@ -15,15 +15,15 @@ import (
 	"github.com/segmentio/fasthash/fnv1a"
 	"github.com/weaveworks/common/httpgrpc"
 
-	"github.com/cortexproject/cortex/pkg/cortexpb"
-	"github.com/cortexproject/cortex/pkg/ingester/client"
-	"github.com/cortexproject/cortex/pkg/ingester/index"
-	"github.com/cortexproject/cortex/pkg/tenant"
-	"github.com/cortexproject/cortex/pkg/util"
-	"github.com/cortexproject/cortex/pkg/util/extract"
-	util_math "github.com/cortexproject/cortex/pkg/util/math"
-	"github.com/cortexproject/cortex/pkg/util/spanlogger"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
+	"github.com/muhammadn/cortex/pkg/ingester/client"
+	"github.com/muhammadn/cortex/pkg/ingester/index"
+	"github.com/muhammadn/cortex/pkg/tenant"
+	"github.com/muhammadn/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util/extract"
+	util_math "github.com/muhammadn/cortex/pkg/util/math"
+	"github.com/muhammadn/cortex/pkg/util/spanlogger"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 // userStates holds the userState object for all users (tenants),

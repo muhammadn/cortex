@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertspb"
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertstore"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertspb"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertstore"
 )
 
 type fakePersistableState struct {

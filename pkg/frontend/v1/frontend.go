@@ -16,13 +16,13 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/weaveworks/common/httpgrpc"
 
-	"github.com/cortexproject/cortex/pkg/frontend/v1/frontendv1pb"
-	"github.com/cortexproject/cortex/pkg/querier/stats"
-	"github.com/cortexproject/cortex/pkg/scheduler/queue"
-	"github.com/cortexproject/cortex/pkg/tenant"
-	"github.com/cortexproject/cortex/pkg/util"
-	"github.com/cortexproject/cortex/pkg/util/httpgrpcutil"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/frontend/v1/frontendv1pb"
+	"github.com/muhammadn/cortex/pkg/querier/stats"
+	"github.com/muhammadn/cortex/pkg/scheduler/queue"
+	"github.com/muhammadn/cortex/pkg/tenant"
+	"github.com/muhammadn/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util/httpgrpcutil"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 var (

@@ -19,10 +19,10 @@ import (
 	commoncfg "github.com/prometheus/common/config"
 	"gopkg.in/yaml.v2"
 
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertspb"
-	"github.com/cortexproject/cortex/pkg/tenant"
-	"github.com/cortexproject/cortex/pkg/util"
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertspb"
+	"github.com/muhammadn/cortex/pkg/tenant"
+	"github.com/muhammadn/cortex/pkg/util"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 )
 
 const (

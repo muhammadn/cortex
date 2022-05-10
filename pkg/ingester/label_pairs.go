@@ -7,8 +7,8 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/pkg/labels"
 
-	"github.com/cortexproject/cortex/pkg/cortexpb"
-	"github.com/cortexproject/cortex/pkg/util/extract"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
+	"github.com/muhammadn/cortex/pkg/util/extract"
 )
 
 // A series is uniquely identified by its set of label name/value

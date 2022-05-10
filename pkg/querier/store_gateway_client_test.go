@@ -15,7 +15,7 @@ import (
 	"github.com/weaveworks/common/user"
 	"google.golang.org/grpc"
 
-	"github.com/cortexproject/cortex/pkg/storegateway/storegatewaypb"
+	"github.com/muhammadn/cortex/pkg/storegateway/storegatewaypb"
 )
 
 func Test_newStoreGatewayClientFactory(t *testing.T) {

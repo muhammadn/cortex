@@ -34,10 +34,10 @@ import (
 	"github.com/weaveworks/common/httpgrpc"
 	"github.com/weaveworks/common/user"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	"github.com/cortexproject/cortex/pkg/chunk/cache"
-	"github.com/cortexproject/cortex/pkg/tenant"
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/chunk/cache"
+	"github.com/muhammadn/cortex/pkg/tenant"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 const day = 24 * time.Hour

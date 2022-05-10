@@ -21,10 +21,10 @@ import (
 	"github.com/weaveworks/common/httpgrpc"
 	"go.uber.org/atomic"
 
-	"github.com/cortexproject/cortex/pkg/frontend/v2/frontendv2pb"
-	"github.com/cortexproject/cortex/pkg/querier/stats"
-	"github.com/cortexproject/cortex/pkg/tenant"
-	"github.com/cortexproject/cortex/pkg/util/httpgrpcutil"
+	"github.com/muhammadn/cortex/pkg/frontend/v2/frontendv2pb"
+	"github.com/muhammadn/cortex/pkg/querier/stats"
+	"github.com/muhammadn/cortex/pkg/tenant"
+	"github.com/muhammadn/cortex/pkg/util/httpgrpcutil"
 )
 
 // Config for a Frontend.

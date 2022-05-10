@@ -43,14 +43,14 @@ import (
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/grpc"
 
-	"github.com/cortexproject/cortex/pkg/chunk/encoding"
-	"github.com/cortexproject/cortex/pkg/cortexpb"
-	"github.com/cortexproject/cortex/pkg/ingester/client"
-	cortex_tsdb "github.com/cortexproject/cortex/pkg/storage/tsdb"
-	"github.com/cortexproject/cortex/pkg/util"
-	util_math "github.com/cortexproject/cortex/pkg/util/math"
-	"github.com/cortexproject/cortex/pkg/util/test"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/chunk/encoding"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
+	"github.com/muhammadn/cortex/pkg/ingester/client"
+	cortex_tsdb "github.com/muhammadn/cortex/pkg/storage/tsdb"
+	"github.com/muhammadn/cortex/pkg/util"
+	util_math "github.com/muhammadn/cortex/pkg/util/math"
+	"github.com/muhammadn/cortex/pkg/util/test"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 func TestIngester_v2Push(t *testing.T) {

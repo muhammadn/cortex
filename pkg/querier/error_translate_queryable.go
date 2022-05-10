@@ -9,8 +9,8 @@ import (
 	"github.com/prometheus/prometheus/promql"
 	"github.com/prometheus/prometheus/storage"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 // TranslateToPromqlAPIError converts error to one of promql.Errors for consumption in PromQL API.

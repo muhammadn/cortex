@@ -4,7 +4,7 @@ import (
 	"container/heap"
 	"sort"
 
-	promchunk "github.com/cortexproject/cortex/pkg/chunk/encoding"
+	promchunk "github.com/muhammadn/cortex/pkg/chunk/encoding"
 )
 
 type mergeIterator struct {

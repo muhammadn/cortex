@@ -28,15 +28,15 @@ import (
 	"github.com/weaveworks/common/user"
 	"go.uber.org/atomic"
 
-	"github.com/cortexproject/cortex/pkg/cortexpb"
-	ingester_client "github.com/cortexproject/cortex/pkg/ingester/client"
-	"github.com/cortexproject/cortex/pkg/prom1/storage/metric"
-	"github.com/cortexproject/cortex/pkg/tenant"
-	"github.com/cortexproject/cortex/pkg/util"
-	"github.com/cortexproject/cortex/pkg/util/extract"
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
-	util_math "github.com/cortexproject/cortex/pkg/util/math"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
+	ingester_client "github.com/muhammadn/cortex/pkg/ingester/client"
+	"github.com/muhammadn/cortex/pkg/prom1/storage/metric"
+	"github.com/muhammadn/cortex/pkg/tenant"
+	"github.com/muhammadn/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util/extract"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
+	util_math "github.com/muhammadn/cortex/pkg/util/math"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 var (

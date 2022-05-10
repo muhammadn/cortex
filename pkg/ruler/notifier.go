@@ -19,7 +19,7 @@ import (
 	"github.com/prometheus/prometheus/discovery/dns"
 	"github.com/prometheus/prometheus/notifier"
 
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 type NotifierConfig struct {

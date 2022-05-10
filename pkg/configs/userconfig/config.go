@@ -16,8 +16,8 @@ import (
 	"github.com/prometheus/prometheus/promql/parser"
 	"github.com/prometheus/prometheus/rules"
 
-	legacy_promql "github.com/cortexproject/cortex/pkg/configs/legacy_promql"
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	legacy_promql "github.com/muhammadn/cortex/pkg/configs/legacy_promql"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 )
 
 // An ID is the ID of a single users's Cortex configuration. When a

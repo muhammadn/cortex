@@ -25,12 +25,12 @@ import (
 	"github.com/uber/jaeger-client-go"
 	"github.com/weaveworks/common/httpgrpc"
 
-	"github.com/cortexproject/cortex/pkg/chunk/cache"
-	"github.com/cortexproject/cortex/pkg/cortexpb"
-	"github.com/cortexproject/cortex/pkg/tenant"
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
-	"github.com/cortexproject/cortex/pkg/util/spanlogger"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/chunk/cache"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
+	"github.com/muhammadn/cortex/pkg/tenant"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/util/spanlogger"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 var (

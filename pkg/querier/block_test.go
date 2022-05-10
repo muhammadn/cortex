@@ -17,7 +17,7 @@ import (
 	"github.com/thanos-io/thanos/pkg/store/labelpb"
 	"github.com/thanos-io/thanos/pkg/store/storepb"
 
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 func TestBlockQuerierSeries(t *testing.T) {

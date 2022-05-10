@@ -12,8 +12,8 @@ import (
 
 	"github.com/prometheus/common/model"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	"github.com/cortexproject/cortex/pkg/chunk/testutils"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/chunk/testutils"
 )
 
 func TestChunksBasic(t *testing.T) {

@@ -21,10 +21,10 @@ import (
 	"github.com/weaveworks/common/httpgrpc"
 	"github.com/weaveworks/common/user"
 
-	"github.com/cortexproject/cortex/pkg/alertmanager/merger"
-	"github.com/cortexproject/cortex/pkg/tenant"
-	"github.com/cortexproject/cortex/pkg/util"
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/alertmanager/merger"
+	"github.com/muhammadn/cortex/pkg/tenant"
+	"github.com/muhammadn/cortex/pkg/util"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 )
 
 // Distributor forwards requests to individual alertmanagers.

@@ -9,9 +9,9 @@ import (
 	"github.com/grafana/dskit/runtimeconfig"
 	"gopkg.in/yaml.v2"
 
-	"github.com/cortexproject/cortex/pkg/ingester"
-	"github.com/cortexproject/cortex/pkg/util"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/ingester"
+	"github.com/muhammadn/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 var (

@@ -6,7 +6,7 @@ import (
 	"github.com/prometheus/prometheus/promql/parser"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cortexproject/cortex/pkg/cortexpb"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
 )
 
 func Test_ResponseToSamples(t *testing.T) {

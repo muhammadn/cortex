@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/chunk"
 )
 
 type server struct {

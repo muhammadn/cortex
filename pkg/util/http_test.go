@@ -15,9 +15,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
 
-	"github.com/cortexproject/cortex/pkg/cortexpb"
-	"github.com/cortexproject/cortex/pkg/util"
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
+	"github.com/muhammadn/cortex/pkg/util"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 )
 
 func TestRenderHTTPResponse(t *testing.T) {

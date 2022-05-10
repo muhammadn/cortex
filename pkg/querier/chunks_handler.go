@@ -9,9 +9,9 @@ import (
 	"github.com/prometheus/prometheus/promql/parser"
 	"github.com/prometheus/prometheus/storage"
 
-	"github.com/cortexproject/cortex/pkg/querier/chunkstore"
-	"github.com/cortexproject/cortex/pkg/tenant"
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/querier/chunkstore"
+	"github.com/muhammadn/cortex/pkg/tenant"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 // ChunksHandler allows you to fetch a compressed tar of all the chunks for a

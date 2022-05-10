@@ -13,8 +13,8 @@ import (
 	"github.com/grafana/dskit/runutil"
 	"github.com/pkg/errors"
 
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertspb"
-	"github.com/cortexproject/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertspb"
+	"github.com/muhammadn/cortex/pkg/chunk"
 )
 
 // Object Alert Storage Schema

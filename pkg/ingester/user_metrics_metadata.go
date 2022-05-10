@@ -6,8 +6,8 @@ import (
 
 	"github.com/prometheus/prometheus/pkg/labels"
 
-	"github.com/cortexproject/cortex/pkg/cortexpb"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 // userMetricsMetadata allows metric metadata of a tenant to be held by the ingester.

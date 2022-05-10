@@ -18,9 +18,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"golang.org/x/sync/semaphore"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	"github.com/cortexproject/cortex/pkg/chunk/util"
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/chunk/util"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 )
 
 // Config for a StorageClient

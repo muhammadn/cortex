@@ -15,9 +15,9 @@ import (
 	"github.com/go-kit/log/level"
 	"go.etcd.io/bbolt"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	chunk_util "github.com/cortexproject/cortex/pkg/chunk/util"
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	chunk_util "github.com/muhammadn/cortex/pkg/chunk/util"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 )
 
 var (

@@ -13,10 +13,10 @@ import (
 	"github.com/prometheus/prometheus/promql"
 	"github.com/prometheus/prometheus/promql/parser"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	"github.com/cortexproject/cortex/pkg/querier/astmapper"
-	"github.com/cortexproject/cortex/pkg/querier/lazyquery"
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/querier/astmapper"
+	"github.com/muhammadn/cortex/pkg/querier/lazyquery"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 var (

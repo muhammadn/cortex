@@ -3,7 +3,7 @@ package ruler
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 // ManagerMetrics aggregates metrics exported by the Prometheus

@@ -12,9 +12,9 @@ import (
 	"github.com/prometheus/prometheus/pkg/labels"
 	"golang.org/x/time/rate"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	"github.com/cortexproject/cortex/pkg/util"
-	"github.com/cortexproject/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util/log"
 )
 
 const (

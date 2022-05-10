@@ -14,7 +14,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	"github.com/cortexproject/cortex/pkg/storegateway/storegatewaypb"
+	"github.com/muhammadn/cortex/pkg/storegateway/storegatewaypb"
 )
 
 func newStoreGatewayClientFactory(clientCfg grpcclient.Config, reg prometheus.Registerer) client.PoolFactory {

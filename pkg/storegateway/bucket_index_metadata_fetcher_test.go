@@ -19,9 +19,9 @@ import (
 	"github.com/thanos-io/thanos/pkg/block"
 	"github.com/thanos-io/thanos/pkg/block/metadata"
 
-	"github.com/cortexproject/cortex/pkg/storage/bucket"
-	"github.com/cortexproject/cortex/pkg/storage/tsdb/bucketindex"
-	cortex_testutil "github.com/cortexproject/cortex/pkg/storage/tsdb/testutil"
+	"github.com/muhammadn/cortex/pkg/storage/bucket"
+	"github.com/muhammadn/cortex/pkg/storage/tsdb/bucketindex"
+	cortex_testutil "github.com/muhammadn/cortex/pkg/storage/tsdb/testutil"
 )
 
 func TestBucketIndexMetadataFetcher_Fetch(t *testing.T) {

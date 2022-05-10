@@ -17,7 +17,7 @@ import (
 	"github.com/thanos-io/thanos/pkg/discovery/dns"
 	"github.com/thanos-io/thanos/pkg/extprom"
 
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 // BlocksStoreSet implementation used when the blocks are not sharded in the store-gateway

@@ -15,7 +15,7 @@ import (
 	"github.com/thanos-io/thanos/pkg/block/metadata"
 	"github.com/thanos-io/thanos/pkg/objstore"
 
-	cortex_testutil "github.com/cortexproject/cortex/pkg/storage/tsdb/testutil"
+	cortex_testutil "github.com/muhammadn/cortex/pkg/storage/tsdb/testutil"
 )
 
 func TestBlockDeletionMarkFilepath(t *testing.T) {

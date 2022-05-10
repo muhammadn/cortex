@@ -12,9 +12,9 @@ import (
 	"github.com/weaveworks/common/httpgrpc"
 	"google.golang.org/grpc"
 
-	"github.com/cortexproject/cortex/pkg/frontend/v1/frontendv1pb"
-	"github.com/cortexproject/cortex/pkg/querier/stats"
-	querier_stats "github.com/cortexproject/cortex/pkg/querier/stats"
+	"github.com/muhammadn/cortex/pkg/frontend/v1/frontendv1pb"
+	"github.com/muhammadn/cortex/pkg/querier/stats"
+	querier_stats "github.com/muhammadn/cortex/pkg/querier/stats"
 )
 
 var (

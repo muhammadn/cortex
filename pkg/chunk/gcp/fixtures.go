@@ -11,9 +11,9 @@ import (
 	"google.golang.org/api/option"
 	"google.golang.org/grpc"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	"github.com/cortexproject/cortex/pkg/chunk/objectclient"
-	"github.com/cortexproject/cortex/pkg/chunk/testutils"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/chunk/objectclient"
+	"github.com/muhammadn/cortex/pkg/chunk/testutils"
 )
 
 const (

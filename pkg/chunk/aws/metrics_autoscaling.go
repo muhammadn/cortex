@@ -13,8 +13,8 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/weaveworks/common/mtime"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 )
 
 const (

@@ -6,11 +6,11 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/pkg/labels"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	prom_chunk "github.com/cortexproject/cortex/pkg/chunk/encoding"
-	"github.com/cortexproject/cortex/pkg/cortexpb"
-	"github.com/cortexproject/cortex/pkg/ingester/client"
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	prom_chunk "github.com/muhammadn/cortex/pkg/chunk/encoding"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
+	"github.com/muhammadn/cortex/pkg/ingester/client"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 // StreamsToMatrix converts a slice of QueryStreamResponse to a model.Matrix.

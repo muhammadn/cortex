@@ -5,9 +5,9 @@ import (
 
 	"github.com/weaveworks/common/middleware"
 
-	"github.com/cortexproject/cortex/pkg/chunk/purger"
-	"github.com/cortexproject/cortex/pkg/querier/queryrange"
-	"github.com/cortexproject/cortex/pkg/tenant"
+	"github.com/muhammadn/cortex/pkg/chunk/purger"
+	"github.com/muhammadn/cortex/pkg/querier/queryrange"
+	"github.com/muhammadn/cortex/pkg/tenant"
 )
 
 // middleware for setting cache gen header to let consumer of response know all previous responses could be invalid due to delete operation

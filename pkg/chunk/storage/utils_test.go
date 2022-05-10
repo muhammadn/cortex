@@ -5,12 +5,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	"github.com/cortexproject/cortex/pkg/chunk/aws"
-	"github.com/cortexproject/cortex/pkg/chunk/cassandra"
-	"github.com/cortexproject/cortex/pkg/chunk/gcp"
-	"github.com/cortexproject/cortex/pkg/chunk/local"
-	"github.com/cortexproject/cortex/pkg/chunk/testutils"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/chunk/aws"
+	"github.com/muhammadn/cortex/pkg/chunk/cassandra"
+	"github.com/muhammadn/cortex/pkg/chunk/gcp"
+	"github.com/muhammadn/cortex/pkg/chunk/local"
+	"github.com/muhammadn/cortex/pkg/chunk/testutils"
 )
 
 const (

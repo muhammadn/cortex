@@ -14,9 +14,9 @@ import (
 	"github.com/weaveworks/common/httpgrpc"
 	"google.golang.org/grpc"
 
-	"github.com/cortexproject/cortex/pkg/frontend/v2/frontendv2pb"
-	"github.com/cortexproject/cortex/pkg/scheduler/schedulerpb"
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/frontend/v2/frontendv2pb"
+	"github.com/muhammadn/cortex/pkg/scheduler/schedulerpb"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 type frontendSchedulerWorkers struct {

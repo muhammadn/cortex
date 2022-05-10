@@ -3,8 +3,8 @@ package configs
 import (
 	"flag"
 
-	"github.com/cortexproject/cortex/pkg/configs/api"
-	"github.com/cortexproject/cortex/pkg/configs/db"
+	"github.com/muhammadn/cortex/pkg/configs/api"
+	"github.com/muhammadn/cortex/pkg/configs/db"
 )
 
 type Config struct {

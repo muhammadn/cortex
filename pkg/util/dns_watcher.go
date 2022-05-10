@@ -9,7 +9,7 @@ import (
 	"github.com/grafana/dskit/services"
 	"github.com/pkg/errors"
 
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 )
 
 // Notifications about address resolution. All notifications are sent on the same goroutine.

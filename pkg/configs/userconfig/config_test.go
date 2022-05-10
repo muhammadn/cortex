@@ -17,7 +17,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"
 
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 )
 
 var legacyRulesFile = `ALERT TestAlert

@@ -22,10 +22,10 @@ import (
 	"github.com/weaveworks/common/instrument"
 	"github.com/weaveworks/common/middleware"
 
-	"github.com/cortexproject/cortex/pkg/chunk/purger"
-	"github.com/cortexproject/cortex/pkg/querier"
-	"github.com/cortexproject/cortex/pkg/querier/stats"
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/chunk/purger"
+	"github.com/muhammadn/cortex/pkg/querier"
+	"github.com/muhammadn/cortex/pkg/querier/stats"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 const (

@@ -11,7 +11,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/chunk"
 )
 
 type tableClient struct {

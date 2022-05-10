@@ -19,9 +19,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/user"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	"github.com/cortexproject/cortex/pkg/querier/batch"
-	"github.com/cortexproject/cortex/pkg/querier/chunkstore"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/querier/batch"
+	"github.com/muhammadn/cortex/pkg/querier/chunkstore"
 )
 
 func getTarDataFromEnv(t testing.TB) (query string, from, through time.Time, step time.Duration, store chunkstore.ChunkStore) {

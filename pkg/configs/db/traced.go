@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cortexproject/cortex/pkg/configs/userconfig"
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/configs/userconfig"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 
 	"github.com/go-kit/log/level"
 )

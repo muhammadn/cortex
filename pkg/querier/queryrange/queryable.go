@@ -8,7 +8,7 @@ import (
 	"github.com/prometheus/prometheus/pkg/labels"
 	"github.com/prometheus/prometheus/storage"
 
-	"github.com/cortexproject/cortex/pkg/querier/astmapper"
+	"github.com/muhammadn/cortex/pkg/querier/astmapper"
 )
 
 const (

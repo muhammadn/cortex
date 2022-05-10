@@ -7,7 +7,7 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/tsdb/chunkenc"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/chunk"
 )
 
 type chunkMergeIterator struct {

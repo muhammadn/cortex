@@ -8,7 +8,7 @@ import (
 	"github.com/grafana/dskit/flagext"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cortexproject/cortex/pkg/storage/bucket"
+	"github.com/muhammadn/cortex/pkg/storage/bucket"
 )
 
 func TestConfig_Validate(t *testing.T) {

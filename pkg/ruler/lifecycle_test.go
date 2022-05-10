@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cortexproject/cortex/pkg/util/test"
+	"github.com/muhammadn/cortex/pkg/util/test"
 )
 
 // TestRulerShutdown tests shutting down ruler unregisters correctly

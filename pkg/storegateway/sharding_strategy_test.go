@@ -17,7 +17,7 @@ import (
 	"github.com/thanos-io/thanos/pkg/block/metadata"
 	"github.com/thanos-io/thanos/pkg/extprom"
 
-	cortex_tsdb "github.com/cortexproject/cortex/pkg/storage/tsdb"
+	cortex_tsdb "github.com/muhammadn/cortex/pkg/storage/tsdb"
 )
 
 func TestDefaultShardingStrategy(t *testing.T) {

@@ -13,7 +13,7 @@ import (
 	"github.com/prometheus/prometheus/storage"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cortexproject/cortex/pkg/cortexpb"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
 )
 
 func TestDuplicatesSamples(t *testing.T) {

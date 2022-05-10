@@ -10,7 +10,7 @@ import (
 	"github.com/pkg/errors"
 	promRules "github.com/prometheus/prometheus/rules"
 
-	"github.com/cortexproject/cortex/pkg/ruler/rulespb"
+	"github.com/muhammadn/cortex/pkg/ruler/rulespb"
 )
 
 const (

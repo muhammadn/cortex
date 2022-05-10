@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cortexproject/cortex/pkg/configs/userconfig"
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/configs/userconfig"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 
 	"github.com/Masterminds/squirrel"
 	"github.com/go-kit/log/level"
@@ -243,7 +243,7 @@ func (d DB) findRulesConfigs(filter squirrel.Sqlizer) (map[string]userconfig.Ver
 		// non-empty `rules_files` key.
 		//
 		// This whole situation is way too complicated. See
-		// https://github.com/cortexproject/cortex/issues/619 for the whole
+		// https://github.com/muhammadn/cortex/issues/619 for the whole
 		// story, and our plans to improve it.
 		Where("config ->> 'rules_files' <> '{}'").
 		OrderBy("owner_id, id DESC").

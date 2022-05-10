@@ -23,15 +23,15 @@ import (
 	"go.uber.org/atomic"
 	"google.golang.org/grpc"
 
-	"github.com/cortexproject/cortex/pkg/chunk/aws"
-	"github.com/cortexproject/cortex/pkg/chunk/storage"
-	"github.com/cortexproject/cortex/pkg/frontend/v1/frontendv1pb"
-	"github.com/cortexproject/cortex/pkg/ingester"
-	"github.com/cortexproject/cortex/pkg/ruler"
-	"github.com/cortexproject/cortex/pkg/scheduler/schedulerpb"
-	"github.com/cortexproject/cortex/pkg/storage/bucket"
-	"github.com/cortexproject/cortex/pkg/storage/bucket/s3"
-	"github.com/cortexproject/cortex/pkg/storage/tsdb"
+	"github.com/muhammadn/cortex/pkg/chunk/aws"
+	"github.com/muhammadn/cortex/pkg/chunk/storage"
+	"github.com/muhammadn/cortex/pkg/frontend/v1/frontendv1pb"
+	"github.com/muhammadn/cortex/pkg/ingester"
+	"github.com/muhammadn/cortex/pkg/ruler"
+	"github.com/muhammadn/cortex/pkg/scheduler/schedulerpb"
+	"github.com/muhammadn/cortex/pkg/storage/bucket"
+	"github.com/muhammadn/cortex/pkg/storage/bucket/s3"
+	"github.com/muhammadn/cortex/pkg/storage/tsdb"
 )
 
 func TestCortex(t *testing.T) {

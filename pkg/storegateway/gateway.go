@@ -20,11 +20,11 @@ import (
 	"github.com/thanos-io/thanos/pkg/store/storepb"
 	"github.com/weaveworks/common/logging"
 
-	"github.com/cortexproject/cortex/pkg/storage/bucket"
-	cortex_tsdb "github.com/cortexproject/cortex/pkg/storage/tsdb"
-	"github.com/cortexproject/cortex/pkg/storegateway/storegatewaypb"
-	"github.com/cortexproject/cortex/pkg/util"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/storage/bucket"
+	cortex_tsdb "github.com/muhammadn/cortex/pkg/storage/tsdb"
+	"github.com/muhammadn/cortex/pkg/storegateway/storegatewaypb"
+	"github.com/muhammadn/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 const (

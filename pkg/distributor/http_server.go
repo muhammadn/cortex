@@ -3,7 +3,7 @@ package distributor
 import (
 	"net/http"
 
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 // UserStats models ingestion statistics for one user.

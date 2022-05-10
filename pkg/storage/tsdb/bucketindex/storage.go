@@ -11,7 +11,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/thanos-io/thanos/pkg/objstore"
 
-	"github.com/cortexproject/cortex/pkg/storage/bucket"
+	"github.com/muhammadn/cortex/pkg/storage/bucket"
 )
 
 var (

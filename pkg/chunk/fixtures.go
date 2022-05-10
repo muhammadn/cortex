@@ -9,7 +9,7 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/pkg/labels"
 
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 // BenchmarkLabels is a real example from Kubernetes' embedded cAdvisor metrics, lightly obfuscated

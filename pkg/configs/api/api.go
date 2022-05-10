@@ -20,11 +20,11 @@ import (
 	amconfig "github.com/prometheus/alertmanager/config"
 	amtemplate "github.com/prometheus/alertmanager/template"
 
-	"github.com/cortexproject/cortex/pkg/configs/db"
-	"github.com/cortexproject/cortex/pkg/configs/userconfig"
-	"github.com/cortexproject/cortex/pkg/tenant"
-	"github.com/cortexproject/cortex/pkg/util"
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/configs/db"
+	"github.com/muhammadn/cortex/pkg/configs/userconfig"
+	"github.com/muhammadn/cortex/pkg/tenant"
+	"github.com/muhammadn/cortex/pkg/util"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 )
 
 var (

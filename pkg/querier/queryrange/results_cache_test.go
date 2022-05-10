@@ -15,8 +15,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/user"
 
-	"github.com/cortexproject/cortex/pkg/chunk/cache"
-	"github.com/cortexproject/cortex/pkg/cortexpb"
+	"github.com/muhammadn/cortex/pkg/chunk/cache"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
 )
 
 const (

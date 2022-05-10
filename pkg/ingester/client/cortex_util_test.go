@@ -14,7 +14,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/cortexproject/cortex/pkg/util/test"
+	"github.com/muhammadn/cortex/pkg/util/test"
 )
 
 func TestSendQueryStream(t *testing.T) {

@@ -20,9 +20,9 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/cortexproject/cortex/pkg/chunk/purger"
-	"github.com/cortexproject/cortex/pkg/querier"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/chunk/purger"
+	"github.com/muhammadn/cortex/pkg/querier"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 
 	"go.uber.org/atomic"
 
@@ -49,13 +49,13 @@ import (
 	"github.com/weaveworks/common/user"
 	"gopkg.in/yaml.v2"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	"github.com/cortexproject/cortex/pkg/cortexpb"
-	"github.com/cortexproject/cortex/pkg/ruler/rulespb"
-	"github.com/cortexproject/cortex/pkg/ruler/rulestore"
-	"github.com/cortexproject/cortex/pkg/ruler/rulestore/objectclient"
-	"github.com/cortexproject/cortex/pkg/tenant"
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
+	"github.com/muhammadn/cortex/pkg/ruler/rulespb"
+	"github.com/muhammadn/cortex/pkg/ruler/rulestore"
+	"github.com/muhammadn/cortex/pkg/ruler/rulestore/objectclient"
+	"github.com/muhammadn/cortex/pkg/tenant"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 func defaultRulerConfig(t testing.TB, store rulestore.RuleStore) (Config, func()) {

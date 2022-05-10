@@ -8,13 +8,13 @@ import (
 	"github.com/grafana/dskit/flagext"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 
-	"github.com/cortexproject/cortex/pkg/chunk/cache"
-	"github.com/cortexproject/cortex/pkg/chunk/gcp"
+	"github.com/muhammadn/cortex/pkg/chunk/cache"
+	"github.com/muhammadn/cortex/pkg/chunk/gcp"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	"github.com/cortexproject/cortex/pkg/chunk/testutils"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/chunk/testutils"
 )
 
 type fixture struct {

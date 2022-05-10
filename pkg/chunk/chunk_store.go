@@ -16,13 +16,13 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/pkg/labels"
 
-	"github.com/cortexproject/cortex/pkg/chunk/cache"
-	"github.com/cortexproject/cortex/pkg/chunk/encoding"
-	"github.com/cortexproject/cortex/pkg/util"
-	"github.com/cortexproject/cortex/pkg/util/extract"
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
-	"github.com/cortexproject/cortex/pkg/util/spanlogger"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/chunk/cache"
+	"github.com/muhammadn/cortex/pkg/chunk/encoding"
+	"github.com/muhammadn/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util/extract"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/util/spanlogger"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 var (

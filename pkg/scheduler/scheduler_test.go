@@ -21,10 +21,10 @@ import (
 	"github.com/weaveworks/common/httpgrpc"
 	"google.golang.org/grpc"
 
-	"github.com/cortexproject/cortex/pkg/frontend/v2/frontendv2pb"
-	"github.com/cortexproject/cortex/pkg/scheduler/schedulerpb"
-	"github.com/cortexproject/cortex/pkg/util/httpgrpcutil"
-	"github.com/cortexproject/cortex/pkg/util/test"
+	"github.com/muhammadn/cortex/pkg/frontend/v2/frontendv2pb"
+	"github.com/muhammadn/cortex/pkg/scheduler/schedulerpb"
+	"github.com/muhammadn/cortex/pkg/util/httpgrpcutil"
+	"github.com/muhammadn/cortex/pkg/util/test"
 )
 
 const testMaxOutstandingPerTenant = 5

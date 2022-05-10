@@ -20,11 +20,11 @@ import (
 	"github.com/weaveworks/common/user"
 	"gopkg.in/yaml.v3"
 
-	"github.com/cortexproject/cortex/pkg/cortexpb"
-	"github.com/cortexproject/cortex/pkg/ruler/rulespb"
-	"github.com/cortexproject/cortex/pkg/ruler/rulestore"
-	"github.com/cortexproject/cortex/pkg/tenant"
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
+	"github.com/muhammadn/cortex/pkg/ruler/rulespb"
+	"github.com/muhammadn/cortex/pkg/ruler/rulestore"
+	"github.com/muhammadn/cortex/pkg/tenant"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 )
 
 // In order to reimplement the prometheus rules API, a large amount of code was copied over

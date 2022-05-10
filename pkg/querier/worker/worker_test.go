@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"github.com/cortexproject/cortex/pkg/util/test"
+	"github.com/muhammadn/cortex/pkg/util/test"
 )
 
 func TestResetConcurrency(t *testing.T) {

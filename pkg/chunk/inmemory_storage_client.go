@@ -13,7 +13,7 @@ import (
 
 	"github.com/go-kit/log/level"
 
-	"github.com/cortexproject/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/util/log"
 )
 
 type MockStorageMode int

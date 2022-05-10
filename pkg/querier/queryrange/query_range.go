@@ -22,9 +22,9 @@ import (
 	"github.com/prometheus/prometheus/pkg/timestamp"
 	"github.com/weaveworks/common/httpgrpc"
 
-	"github.com/cortexproject/cortex/pkg/cortexpb"
-	"github.com/cortexproject/cortex/pkg/util"
-	"github.com/cortexproject/cortex/pkg/util/spanlogger"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
+	"github.com/muhammadn/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util/spanlogger"
 )
 
 // StatusSuccess Prometheus success result.

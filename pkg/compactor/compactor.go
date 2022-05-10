@@ -29,11 +29,11 @@ import (
 	"github.com/thanos-io/thanos/pkg/compact/downsample"
 	"github.com/thanos-io/thanos/pkg/objstore"
 
-	"github.com/cortexproject/cortex/pkg/storage/bucket"
-	cortex_tsdb "github.com/cortexproject/cortex/pkg/storage/tsdb"
-	"github.com/cortexproject/cortex/pkg/storage/tsdb/bucketindex"
-	"github.com/cortexproject/cortex/pkg/util"
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/storage/bucket"
+	cortex_tsdb "github.com/muhammadn/cortex/pkg/storage/tsdb"
+	"github.com/muhammadn/cortex/pkg/storage/tsdb/bucketindex"
+	"github.com/muhammadn/cortex/pkg/util"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 )
 
 const (

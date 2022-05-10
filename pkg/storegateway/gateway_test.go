@@ -38,14 +38,14 @@ import (
 	"github.com/thanos-io/thanos/pkg/store/storepb"
 	"google.golang.org/grpc/status"
 
-	"github.com/cortexproject/cortex/pkg/storage/bucket"
-	"github.com/cortexproject/cortex/pkg/storage/bucket/filesystem"
-	cortex_tsdb "github.com/cortexproject/cortex/pkg/storage/tsdb"
-	"github.com/cortexproject/cortex/pkg/storage/tsdb/bucketindex"
-	cortex_testutil "github.com/cortexproject/cortex/pkg/storage/tsdb/testutil"
-	"github.com/cortexproject/cortex/pkg/util"
-	"github.com/cortexproject/cortex/pkg/util/test"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/storage/bucket"
+	"github.com/muhammadn/cortex/pkg/storage/bucket/filesystem"
+	cortex_tsdb "github.com/muhammadn/cortex/pkg/storage/tsdb"
+	"github.com/muhammadn/cortex/pkg/storage/tsdb/bucketindex"
+	cortex_testutil "github.com/muhammadn/cortex/pkg/storage/tsdb/testutil"
+	"github.com/muhammadn/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util/test"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 func TestConfig_Validate(t *testing.T) {

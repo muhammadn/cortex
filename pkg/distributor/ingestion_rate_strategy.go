@@ -4,7 +4,7 @@ import (
 	"github.com/grafana/dskit/limiter"
 	"golang.org/x/time/rate"
 
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 // ReadLifecycler represents the read interface to the lifecycler.

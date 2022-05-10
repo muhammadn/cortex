@@ -8,8 +8,8 @@ import (
 	"github.com/prometheus/common/model"
 	"go.uber.org/atomic"
 
-	"github.com/cortexproject/cortex/pkg/cortexpb"
-	"github.com/cortexproject/cortex/pkg/ingester/client"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
+	"github.com/muhammadn/cortex/pkg/ingester/client"
 )
 
 type queryLimiterCtxKey struct{}

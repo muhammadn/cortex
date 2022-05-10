@@ -14,7 +14,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertmanagerpb"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertmanagerpb"
 )
 
 // ClientsPool is the interface used to get the client from the pool for a specified address.

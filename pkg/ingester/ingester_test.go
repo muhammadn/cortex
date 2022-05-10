@@ -29,13 +29,13 @@ import (
 	"github.com/weaveworks/common/user"
 	"google.golang.org/grpc"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	promchunk "github.com/cortexproject/cortex/pkg/chunk/encoding"
-	"github.com/cortexproject/cortex/pkg/cortexpb"
-	"github.com/cortexproject/cortex/pkg/ingester/client"
-	"github.com/cortexproject/cortex/pkg/util/chunkcompat"
-	"github.com/cortexproject/cortex/pkg/util/test"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	promchunk "github.com/muhammadn/cortex/pkg/chunk/encoding"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
+	"github.com/muhammadn/cortex/pkg/ingester/client"
+	"github.com/muhammadn/cortex/pkg/util/chunkcompat"
+	"github.com/muhammadn/cortex/pkg/util/test"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 type testStore struct {

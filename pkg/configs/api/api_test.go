@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cortexproject/cortex/pkg/configs/userconfig"
+	"github.com/muhammadn/cortex/pkg/configs/userconfig"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

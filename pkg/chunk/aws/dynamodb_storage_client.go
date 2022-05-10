@@ -28,12 +28,12 @@ import (
 	"github.com/weaveworks/common/instrument"
 	"golang.org/x/time/rate"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	chunk_util "github.com/cortexproject/cortex/pkg/chunk/util"
-	"github.com/cortexproject/cortex/pkg/util"
-	"github.com/cortexproject/cortex/pkg/util/log"
-	"github.com/cortexproject/cortex/pkg/util/math"
-	"github.com/cortexproject/cortex/pkg/util/spanlogger"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	chunk_util "github.com/muhammadn/cortex/pkg/chunk/util"
+	"github.com/muhammadn/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/util/math"
+	"github.com/muhammadn/cortex/pkg/util/spanlogger"
 )
 
 const (

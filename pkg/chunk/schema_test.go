@@ -15,7 +15,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/test"
 
-	"github.com/cortexproject/cortex/pkg/querier/astmapper"
+	"github.com/muhammadn/cortex/pkg/querier/astmapper"
 )
 
 type ByHashRangeKey []IndexEntry

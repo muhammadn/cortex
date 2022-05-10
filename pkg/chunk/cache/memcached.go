@@ -16,8 +16,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	instr "github.com/weaveworks/common/instrument"
 
-	"github.com/cortexproject/cortex/pkg/util/math"
-	"github.com/cortexproject/cortex/pkg/util/spanlogger"
+	"github.com/muhammadn/cortex/pkg/util/math"
+	"github.com/muhammadn/cortex/pkg/util/spanlogger"
 )
 
 // MemcachedConfig is config to make a Memcached

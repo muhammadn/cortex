@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cortexproject/cortex/pkg/configs/userconfig"
+	"github.com/muhammadn/cortex/pkg/configs/userconfig"
 
 	"github.com/stretchr/testify/require"
 

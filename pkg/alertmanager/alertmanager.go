@@ -48,8 +48,8 @@ import (
 	"github.com/prometheus/common/route"
 	"golang.org/x/time/rate"
 
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertstore"
-	util_net "github.com/cortexproject/cortex/pkg/util/net"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertstore"
+	util_net "github.com/muhammadn/cortex/pkg/util/net"
 )
 
 const (

@@ -9,9 +9,9 @@ import (
 	"github.com/prometheus/prometheus/scrape"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/cortexproject/cortex/pkg/ingester/client"
-	"github.com/cortexproject/cortex/pkg/prom1/storage/metric"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/ingester/client"
+	"github.com/muhammadn/cortex/pkg/prom1/storage/metric"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 type MockDistributor struct {

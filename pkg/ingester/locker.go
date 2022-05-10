@@ -6,7 +6,7 @@ import (
 
 	"github.com/prometheus/common/model"
 
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 const (

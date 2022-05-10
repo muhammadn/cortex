@@ -13,14 +13,14 @@ import (
 	"github.com/prometheus/prometheus/pkg/labels"
 	"github.com/weaveworks/common/instrument"
 
-	"github.com/cortexproject/cortex/pkg/cortexpb"
-	ingester_client "github.com/cortexproject/cortex/pkg/ingester/client"
-	"github.com/cortexproject/cortex/pkg/querier/stats"
-	"github.com/cortexproject/cortex/pkg/tenant"
-	"github.com/cortexproject/cortex/pkg/util"
-	"github.com/cortexproject/cortex/pkg/util/extract"
-	"github.com/cortexproject/cortex/pkg/util/limiter"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
+	ingester_client "github.com/muhammadn/cortex/pkg/ingester/client"
+	"github.com/muhammadn/cortex/pkg/querier/stats"
+	"github.com/muhammadn/cortex/pkg/tenant"
+	"github.com/muhammadn/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util/extract"
+	"github.com/muhammadn/cortex/pkg/util/limiter"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 // Query multiple ingesters and returns a Matrix of samples.

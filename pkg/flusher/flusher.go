@@ -12,8 +12,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/cortexproject/cortex/pkg/ingester"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/ingester"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 // Config for an Ingester.

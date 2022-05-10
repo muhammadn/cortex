@@ -7,9 +7,9 @@ import (
 	"github.com/prometheus/prometheus/pkg/labels"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	"github.com/cortexproject/cortex/pkg/chunk/encoding"
-	prom_chunk "github.com/cortexproject/cortex/pkg/chunk/encoding"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/chunk/encoding"
+	prom_chunk "github.com/muhammadn/cortex/pkg/chunk/encoding"
 )
 
 // This includes test for all RPCs in

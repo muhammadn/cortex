@@ -8,7 +8,7 @@ import (
 	"github.com/grafana/dskit/services"
 	"github.com/weaveworks/common/server"
 
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 )
 
 // NewServerService constructs service from Server component.

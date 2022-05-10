@@ -3,7 +3,7 @@ package cache_test
 import (
 	"testing"
 
-	"github.com/cortexproject/cortex/pkg/chunk/cache"
+	"github.com/muhammadn/cortex/pkg/chunk/cache"
 )
 
 func TestBackground(t *testing.T) {

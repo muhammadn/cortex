@@ -8,8 +8,8 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	promchunk "github.com/cortexproject/cortex/pkg/chunk/encoding"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	promchunk "github.com/muhammadn/cortex/pkg/chunk/encoding"
 )
 
 func BenchmarkNewChunkMergeIterator_CreateAndIterate(b *testing.B) {

@@ -7,7 +7,7 @@ import (
 	"github.com/go-kit/log/level"
 	"github.com/grafana/dskit/services"
 
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 )
 
 var (

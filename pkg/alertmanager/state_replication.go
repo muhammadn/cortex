@@ -16,8 +16,8 @@ import (
 	"github.com/prometheus/alertmanager/cluster/clusterpb"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertspb"
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertstore"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertspb"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertstore"
 )
 
 const (

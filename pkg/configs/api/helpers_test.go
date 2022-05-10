@@ -9,13 +9,13 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/cortexproject/cortex/pkg/configs/userconfig"
+	"github.com/muhammadn/cortex/pkg/configs/userconfig"
 
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/user"
 
-	"github.com/cortexproject/cortex/pkg/configs/db"
-	"github.com/cortexproject/cortex/pkg/configs/db/dbtest"
+	"github.com/muhammadn/cortex/pkg/configs/db"
+	"github.com/muhammadn/cortex/pkg/configs/db/dbtest"
 )
 
 var (

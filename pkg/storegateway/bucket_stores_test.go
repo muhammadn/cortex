@@ -35,10 +35,10 @@ import (
 	"go.uber.org/atomic"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/cortexproject/cortex/pkg/storage/bucket"
-	"github.com/cortexproject/cortex/pkg/storage/bucket/filesystem"
-	cortex_tsdb "github.com/cortexproject/cortex/pkg/storage/tsdb"
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/storage/bucket"
+	"github.com/muhammadn/cortex/pkg/storage/bucket/filesystem"
+	cortex_tsdb "github.com/muhammadn/cortex/pkg/storage/tsdb"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 func TestBucketStores_InitialSync(t *testing.T) {

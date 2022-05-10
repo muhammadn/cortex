@@ -14,8 +14,8 @@ import (
 	"github.com/thanos-io/thanos/pkg/objstore"
 	"go.uber.org/atomic"
 
-	"github.com/cortexproject/cortex/pkg/storage/bucket"
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/storage/bucket"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 const (

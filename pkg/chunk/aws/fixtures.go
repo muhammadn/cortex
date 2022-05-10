@@ -8,9 +8,9 @@ import (
 	"github.com/grafana/dskit/backoff"
 	"golang.org/x/time/rate"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	"github.com/cortexproject/cortex/pkg/chunk/objectclient"
-	"github.com/cortexproject/cortex/pkg/chunk/testutils"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/chunk/objectclient"
+	"github.com/muhammadn/cortex/pkg/chunk/testutils"
 )
 
 type fixture struct {

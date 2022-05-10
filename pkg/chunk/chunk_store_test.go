@@ -19,9 +19,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/test"
 
-	"github.com/cortexproject/cortex/pkg/chunk/cache"
-	"github.com/cortexproject/cortex/pkg/chunk/encoding"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/chunk/cache"
+	"github.com/muhammadn/cortex/pkg/chunk/encoding"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 type configFactory func() StoreConfig

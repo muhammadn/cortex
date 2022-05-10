@@ -12,7 +12,7 @@ import (
 	"github.com/thanos-io/thanos/pkg/extprom"
 	"github.com/thanos-io/thanos/pkg/objstore"
 
-	cortex_tsdb "github.com/cortexproject/cortex/pkg/storage/tsdb"
+	cortex_tsdb "github.com/muhammadn/cortex/pkg/storage/tsdb"
 )
 
 const (

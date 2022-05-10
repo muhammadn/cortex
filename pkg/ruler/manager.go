@@ -19,7 +19,7 @@ import (
 	"github.com/weaveworks/common/user"
 	"golang.org/x/net/context/ctxhttp"
 
-	"github.com/cortexproject/cortex/pkg/ruler/rulespb"
+	"github.com/muhammadn/cortex/pkg/ruler/rulespb"
 )
 
 type DefaultMultiTenantManager struct {

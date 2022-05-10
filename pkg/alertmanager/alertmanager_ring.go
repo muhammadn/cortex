@@ -12,7 +12,7 @@ import (
 	"github.com/grafana/dskit/kv"
 	"github.com/grafana/dskit/ring"
 
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 )
 
 const (

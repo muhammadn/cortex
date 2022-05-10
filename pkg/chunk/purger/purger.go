@@ -21,9 +21,9 @@ import (
 	"github.com/prometheus/prometheus/promql/parser"
 	"github.com/weaveworks/common/user"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	"github.com/cortexproject/cortex/pkg/cortexpb"
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/cortexpb"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 )
 
 const (

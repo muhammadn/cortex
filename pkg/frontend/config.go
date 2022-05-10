@@ -8,10 +8,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/cortexproject/cortex/pkg/frontend/transport"
-	v1 "github.com/cortexproject/cortex/pkg/frontend/v1"
-	v2 "github.com/cortexproject/cortex/pkg/frontend/v2"
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/frontend/transport"
+	v1 "github.com/muhammadn/cortex/pkg/frontend/v1"
+	v2 "github.com/muhammadn/cortex/pkg/frontend/v2"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 // This struct combines several configuration options together to preserve backwards compatibility.

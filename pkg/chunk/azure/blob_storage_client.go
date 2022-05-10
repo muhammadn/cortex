@@ -14,10 +14,10 @@ import (
 	"github.com/Azure/azure-storage-blob-go/azblob"
 	"github.com/grafana/dskit/flagext"
 
-	"github.com/cortexproject/cortex/pkg/chunk"
-	chunk_util "github.com/cortexproject/cortex/pkg/chunk/util"
-	"github.com/cortexproject/cortex/pkg/util"
-	"github.com/cortexproject/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	chunk_util "github.com/muhammadn/cortex/pkg/chunk/util"
+	"github.com/muhammadn/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util/log"
 )
 
 const (

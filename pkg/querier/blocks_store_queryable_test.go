@@ -29,11 +29,11 @@ import (
 	"github.com/weaveworks/common/user"
 	"google.golang.org/grpc"
 
-	"github.com/cortexproject/cortex/pkg/storage/tsdb/bucketindex"
-	"github.com/cortexproject/cortex/pkg/storegateway/storegatewaypb"
-	"github.com/cortexproject/cortex/pkg/util"
-	"github.com/cortexproject/cortex/pkg/util/limiter"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/storage/tsdb/bucketindex"
+	"github.com/muhammadn/cortex/pkg/storegateway/storegatewaypb"
+	"github.com/muhammadn/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util/limiter"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 func TestBlocksStoreQuerier_Select(t *testing.T) {

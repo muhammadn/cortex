@@ -13,9 +13,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 
-	cortex_tsdb "github.com/cortexproject/cortex/pkg/storage/tsdb"
-	"github.com/cortexproject/cortex/pkg/storegateway"
-	"github.com/cortexproject/cortex/pkg/util"
+	cortex_tsdb "github.com/muhammadn/cortex/pkg/storage/tsdb"
+	"github.com/muhammadn/cortex/pkg/storegateway"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 type loadBalancingStrategy int

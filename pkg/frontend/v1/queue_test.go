@@ -17,7 +17,7 @@ import (
 	"github.com/weaveworks/common/user"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/cortexproject/cortex/pkg/frontend/v1/frontendv1pb"
+	"github.com/muhammadn/cortex/pkg/frontend/v1/frontendv1pb"
 )
 
 func setupFrontend(t *testing.T, config Config) (*Frontend, error) {

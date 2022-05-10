@@ -13,8 +13,8 @@ import (
 	"github.com/weaveworks/common/mtime"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/cortexproject/cortex/pkg/util/log"
-	"github.com/cortexproject/cortex/pkg/util/math"
+	"github.com/muhammadn/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/util/math"
 )
 
 const (

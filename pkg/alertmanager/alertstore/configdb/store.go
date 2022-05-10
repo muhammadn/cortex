@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertspb"
-	"github.com/cortexproject/cortex/pkg/configs/client"
-	"github.com/cortexproject/cortex/pkg/configs/userconfig"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertspb"
+	"github.com/muhammadn/cortex/pkg/configs/client"
+	"github.com/muhammadn/cortex/pkg/configs/userconfig"
 )
 
 const (

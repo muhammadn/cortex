@@ -33,12 +33,12 @@ import (
 	"github.com/weaveworks/common/user"
 	"golang.org/x/time/rate"
 
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertmanagerpb"
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertspb"
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertstore"
-	"github.com/cortexproject/cortex/pkg/tenant"
-	"github.com/cortexproject/cortex/pkg/util"
-	util_log "github.com/cortexproject/cortex/pkg/util/log"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertmanagerpb"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertspb"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertstore"
+	"github.com/muhammadn/cortex/pkg/tenant"
+	"github.com/muhammadn/cortex/pkg/util"
+	util_log "github.com/muhammadn/cortex/pkg/util/log"
 )
 
 const (

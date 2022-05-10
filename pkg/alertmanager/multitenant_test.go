@@ -41,14 +41,14 @@ import (
 	"golang.org/x/time/rate"
 	"google.golang.org/grpc"
 
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertmanagerpb"
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertspb"
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertstore"
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertstore/bucketclient"
-	"github.com/cortexproject/cortex/pkg/storage/bucket"
-	"github.com/cortexproject/cortex/pkg/util"
-	"github.com/cortexproject/cortex/pkg/util/test"
-	"github.com/cortexproject/cortex/pkg/util/validation"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertmanagerpb"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertspb"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertstore"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertstore/bucketclient"
+	"github.com/muhammadn/cortex/pkg/storage/bucket"
+	"github.com/muhammadn/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util/test"
+	"github.com/muhammadn/cortex/pkg/util/validation"
 )
 
 var (

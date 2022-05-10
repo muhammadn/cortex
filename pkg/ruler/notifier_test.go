@@ -12,7 +12,7 @@ import (
 	"github.com/prometheus/prometheus/discovery/dns"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cortexproject/cortex/pkg/util"
+	"github.com/muhammadn/cortex/pkg/util"
 )
 
 func TestBuildNotifierConfig(t *testing.T) {

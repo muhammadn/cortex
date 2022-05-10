@@ -7,17 +7,17 @@ import (
 	"github.com/go-kit/log"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertspb"
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertstore/bucketclient"
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertstore/configdb"
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertstore/local"
-	"github.com/cortexproject/cortex/pkg/alertmanager/alertstore/objectclient"
-	"github.com/cortexproject/cortex/pkg/chunk"
-	"github.com/cortexproject/cortex/pkg/chunk/aws"
-	"github.com/cortexproject/cortex/pkg/chunk/azure"
-	"github.com/cortexproject/cortex/pkg/chunk/gcp"
-	"github.com/cortexproject/cortex/pkg/configs/client"
-	"github.com/cortexproject/cortex/pkg/storage/bucket"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertspb"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertstore/bucketclient"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertstore/configdb"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertstore/local"
+	"github.com/muhammadn/cortex/pkg/alertmanager/alertstore/objectclient"
+	"github.com/muhammadn/cortex/pkg/chunk"
+	"github.com/muhammadn/cortex/pkg/chunk/aws"
+	"github.com/muhammadn/cortex/pkg/chunk/azure"
+	"github.com/muhammadn/cortex/pkg/chunk/gcp"
+	"github.com/muhammadn/cortex/pkg/configs/client"
+	"github.com/muhammadn/cortex/pkg/storage/bucket"
 )
 
 // AlertStore stores and configures users rule configs
