@@ -11,9 +11,11 @@ require (
 	github.com/NYTimes/gziphandler v1.1.1
 	github.com/alecthomas/units v0.0.0-20210912230133-d1bdfacee922
 	github.com/alicebob/miniredis/v2 v2.14.3
-	github.com/aws/aws-sdk-go v1.40.45
+	//	github.com/aws/aws-sdk-go v1.40.45
+	github.com/aws/aws-sdk-go v1.44.10
 	github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b
 	github.com/cespare/xxhash v1.1.0
+	github.com/cortexproject/cortex v1.10.1-0.20210820081236-70dddb6b70b8
 	github.com/dustin/go-humanize v1.0.0
 	github.com/facette/natsort v0.0.0-20181210072756-2cd4dd1e2dcb
 	github.com/felixge/fgprof v0.9.1
@@ -52,6 +54,7 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/thanos-io/thanos v0.22.0
 	github.com/uber/jaeger-client-go v2.29.1+incompatible
+	// github.com/weaveworks/common v0.0.0-20210913144402-035033b78a78
 	github.com/weaveworks/common v0.0.0-20210913144402-035033b78a78
 	go.etcd.io/bbolt v1.3.6
 	go.uber.org/atomic v1.9.0
