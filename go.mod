@@ -96,3 +96,6 @@ replace github.com/Azure/azure-pipeline-go => github.com/Azure/azure-pipeline-go
 replace github.com/Azure/azure-storage-blob-go => github.com/Azure/azure-storage-blob-go v0.8.0
 
 replace github.com/weaveworks/common => github.com/weaveworks/common v0.0.0-20210913144402-035033b78a78
+
+replace github.com/cortexproject/cortex => github.com/muhammadn/cortex v1.8.11
+
