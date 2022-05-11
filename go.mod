@@ -94,3 +94,5 @@ replace github.com/thanos-io/thanos => github.com/thanos-io/thanos v0.19.1-0.202
 replace github.com/Azure/azure-pipeline-go => github.com/Azure/azure-pipeline-go v0.2.2
 
 replace github.com/Azure/azure-storage-blob-go => github.com/Azure/azure-storage-blob-go v0.8.0
+
+replace github.com/weaveworks/common => github.com/weaveworks/common v0.0.0-20210913144402-035033b78a78
